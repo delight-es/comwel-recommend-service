@@ -2,7 +2,7 @@
 🏅 **근로복지공단 연구원장상 수상** <br>
 > 🕒 `2023.11.01` - `12.31` <미래내일일경험><br>
 > 📖 프로젝트 기획  |  데이터 수집/정제 |  프론트/백엔드 개발 `팀장`<br>
-> 💻 서비스 : https://comwel-recommend-service.streamlit.app/
+> 💻 서비스 : https://comwel-recommend-service-es.streamlit.app/
 <br>
 <br>
 
