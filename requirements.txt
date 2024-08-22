@@ -1,0 +1,10 @@
+setuptools
+streamlit
+streamlit_extras
+streamlit_echarts
+pandas
+torch
+transformers
+scikit-learn
+matplotlib
+numpy

@@ -1,0 +1,64 @@
+/* =================================== */
+/* 1. Body css */
+body {
+    margin-top: -100px !important;
+}
+
+body, h2, h3, h4, h5, h6, div, li, p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200 !important;
+}
+
+h1, span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600 !important;
+}
+
+/* 전체 */
+.block-container.st-emotion-cache-z5fcl4.ea3mdgi4 {
+    max-width: 1126px !important;
+    margin: auto !important;
+}
+
+/* =================================== */
+/* 2. sidebar css */
+/* sidebar 스타일 변경 */
+section[data-testid="stSidebar"] div.stButton > button {
+    /* background-color: #f0f2f6; */
+    background-color: #EBEDF1;
+    font-size: 1.5rem !important;
+    width: 100%;
+    border: none;
+    margin: 0.5rem 0;
+    text-align: left;
+    border-radius: 10px;
+    padding: 0.75rem;
+    box-shadow: none;
+    transition: background-color 0.2s, font-weight 0.2s; /* 부드러운 전환 효과 */
+}
+
+section[data-testid="stSidebar"] div.stButton > p {
+    font-size:0.8em;
+}
+
+/* 마우스를 올렸을 때 버튼 스타일 변경 */
+section[data-testid="stSidebar"] div.stButton > button:hover {
+    background-color: white;
+    font-weight: bold !important;
+    color: black;
+}
+
+section[data-testid="stSidebar"] > p {
+    font-weight: 600 !important;
+}
+
+/* 선택된 버튼의 스타일 */
+section[data-testid="stSidebar"] div.stButton > button:active {
+    background-color: gray;
+}
+
+/* =================================== */
+/* 코드 블럭 st.code() */
+.stCodeBlock span{
+    color: black !important;
+}
