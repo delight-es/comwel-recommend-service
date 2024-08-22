@@ -51,6 +51,8 @@ def load_data(file_path):
     response.raise_for_status()
     csv_data = StringIO(response.text) 
     data = pd.read_csv(csv_data)
+    if 'Unnamed: 0' in data:
+        data = data.drop(columns=['Unnamed: 0'])
     return data
 
 @st.cache_data
@@ -58,8 +60,8 @@ def load_word_data(file_path):
     response = requests.get(file_path)
     response.raise_for_status()
     csv_data = StringIO(response.text) 
-    data = pd.read_csv(csv_data, header=None, names=['단어', 'ID1', 'ID2',
-    '가중치', '고유명사', '의미분류', '종성유무', '읽기', '타입', '첫번째품사', '마지막품사', '표현', '색인표현'])
+    data = pd.read_csv(csv_data)#, header=None, names=['단어', 'ID1', 'ID2',
+    #'가중치', '고유명사', '의미분류', '종성유무', '읽기', '타입', '첫번째품사', '마지막품사', '표현', '색인표현'])
     return data
 
 @st.cache_data
