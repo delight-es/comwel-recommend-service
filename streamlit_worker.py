@@ -22,7 +22,7 @@ from streamlit_echarts import st_echarts
 # 1. 경로
 #PATH = os.path.dirname(os.path.abspath(__file__))  #로컬
 #GITHUB
-PATH = "https://raw.githubusercontent.com/delight-es/comwel-recommend/main/data/"
+PATH = "https://raw.githubusercontent.com/delight-es/comwel-recommend-service/main/data/"
 CSS_PATH = "https://raw.githubusercontent.com/delight-es/comwel-recommend/main/streamlit_worker.css"
 
 # 2. 세션 초기화
