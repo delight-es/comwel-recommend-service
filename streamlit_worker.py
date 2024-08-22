@@ -91,7 +91,7 @@ def load_pickle_list(file_path):
 #body_list = load_pickle_list(body_file_path)
 
 #GITHUB
-data_path = PATH+"data.csv"
+data_path = PATH+"data_reduce.csv"
 df_all = load_data(data_path)
 print("df_all column: ",df_all.columns)
 print("df_all head: ", df_all.head(5))
