@@ -23,7 +23,7 @@ from streamlit_echarts import st_echarts
 #PATH = os.path.dirname(os.path.abspath(__file__))  #로컬
 #GITHUB
 PATH = "https://raw.githubusercontent.com/delight-es/comwel-recommend-service/main/data/"
-CSS_PATH = "https://raw.githubusercontent.com/delight-es/comwel-recommend/main/streamlit_worker.css"
+CSS_PATH = "https://raw.githubusercontent.com/delight-es/comwel-recommend-service/main/streamlit_worker.css"
 
 # 2. 세션 초기화
 if 'page' not in st.session_state:
