@@ -6,8 +6,7 @@
 <br>
 <br>
 
-![근로복지공단](https://github.com/user-attachments/assets/0d4e5e62-ccb3-4a12-b081-dfefee7e3680)
-
+![근로복지공단](https://github.com/user-attachments/assets/6d02b557-1b87-4b21-8e32-e2f595732e1e)
 <br>
 
 
